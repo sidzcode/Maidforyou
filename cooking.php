@@ -53,9 +53,9 @@ else
 
     	  $service=$_GET['service'];
 	  $subservice1='veg'; 
-	  $veg_rate=1000; 
+	  $veg_rate=300; 
 	  $subservice2='non veg'; 
-	  $nonveg_rate=1000; 
+	  $nonveg_rate=500; 
 	 
 
 			echo'<div class="">
@@ -68,7 +68,7 @@ else
 
 				<div class="cooking">
 					<center><h2>Non Veg</h2><br>
-					<p class="details">only veg allowed here</p><br>
+					<p class="details">Expertise in non-veg dishes</p><br>
 					<p class="rate">Starting at '.$nonveg_rate.'</p><br>
 					<a class="book" href="bookform.php?service='.$service.'&subservice='.$subservice2.'">Book Now</a></center>
 				</div>

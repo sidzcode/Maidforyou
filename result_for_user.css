@@ -1,0 +1,103 @@
+
+body{ margin: 0;
+    background-color: #F9F3EE;
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #BBB8B5;
+}
+table
+{
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    width: 1000px;
+    padding: 5px;
+    border-top: 1px solid #97938C;
+    border-left: 1px solid#DCD9D3;
+    border-right: 1px solid#DCD9D3;
+}
+table,tr,td{
+    border-collapse: collapse;
+    border: 1px solid #DCD9D3;
+}
+thead tr td{
+   padding: 10px;
+   color: #F5D406;
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+}
+thead tr .one{
+    border-right:1px solid #F9F3EE ;
+  
+}
+thead tr .two{
+    border-right:1px solid #F9F3EE ;
+  
+}
+thead tr .three{
+    border-right:1px solid #F9F3EE ;
+  
+}
+thead tr .four{
+    border-right:1px solid #F9F3EE ;
+  
+}
+thead tr .five{
+    border-right:1px solid #F9F3EE ;
+  
+}
+thead tr .six{
+    border-right:1px solid #F9F3EE ;
+  
+}
+thead tr .seven{
+    border-right:1px solid #F9F3EE ;
+  
+}
+thead tr .eight{
+    border-right:1px solid #F9F3EE ;
+  
+}
+
+tbody tr .one{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr .two{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr .three{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr .four{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr .five{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr .six{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr .seven{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr .eight{
+    border-right:1px solid #F9F3EE ;
+  
+}
+tbody tr td{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}

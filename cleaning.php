@@ -53,24 +53,24 @@ else
 <?php
 
     	  $service=$_GET['service'];
-	  $subservice1='veg'; 
-	  $veg_rate=500; 
-	  $subservice2='non veg'; 
-	  $nonveg_rate=500; 
+	  $subservice1='brooming and mopping'; 
+	  $veg_rate=100; 
+	  $subservice2='dish washing'; 
+	  $nonveg_rate=100; 
 	 
 
 			echo'<div class="">
 				<div class="cleaning">
-					<center><h2>Broomimg and Mopping</h2><br>
+					<center><h2>Brooming and Mopping</h2><br>
 					<p class="details">Reliable and trustworthy house help, at your doorstep</p><br>
-					<p class="rate">Starting at '.$veg_rate.'</p><br>
+					<p class="rate">Starting at '.$broomingmopping_rate.'</p><br>
 					<a class="book" href="bookform.php?service='.$service.'&subservice='.$subservice1.'">Book Now</a></center>
 				</div>
 
 				<div class="cleaning">
-					<center><h2>Dishwasing</h2><br>
+					<center><h2>Dish Washing</h2><br>
 					<p class="details">Tired of wasing the dishes? Dont have a dishwasher?</p><br>
-					<p class="rate">Starting at '.$nonveg_rate.'</p><br>
+					<p class="rate">Starting at '.$dishwashing_rate.'</p><br>
 					<a class="book" href="bookform.php?service='.$service.'&subservice='.$subservice2.'">Book Now</a></center>
 				</div>
 

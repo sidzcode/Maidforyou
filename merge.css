@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*.body{
+	 /* background-image:linear-gradient(rgba(0,0,0,0),#ffff);
+	background-color:linear-gradient(to right,#ff105f,#ffad06);*/
+
+    /*margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0),#ffff), url(log.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+	height:100%;
+	width:100%;
+
+}*/
+
+.hero{
+	height: 100%;
+	width: 80%;
+	background-image: linear-gradient(rgba(0,0,0,0),#ffff),url(12.png);
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+	
+}
+.form-box{
+	width:450px;
+	height:850px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	overflow-y:scroll;
+	
+}
+.button-box{
+	width:220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius:30px;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width:110px;
+	height:100%;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius:30px;
+	transition: .3s;
+}
+.input-group{
+	top:150px;
+	position:absolute;
+	width:280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 5px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	top:20px;
+	width:85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border:0;
+	outline:none;
+	border-radius:30px;
+	font-weight:bold;
+}
+/*button{
+	top:-20px;
+	width:85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border:0;
+	outline:none;
+	border-radius:30px;
+	font-weight:bold;
+}*/
+.check-box{
+	
+}
+#user{
+	left:50px;
+}
+#maid{
+	left:450px;
+}
+
+

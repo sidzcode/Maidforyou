@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Order page ham</title>
+    <link rel="stylesheet" href="ham.css">
+
+</head>
+<body>
+    <div class="container">
+
+				<div class="cute1" >
+				<a href="cleaning.html">
+				<h2 style="text-decoration: none;"> Cleaning</h2></a>
+				<p1> &nbsp&nbsp&nbspDomestic help for &nbsp&nbsp&nbspyour daily chores. </p1>
+
+				</div>
+				
+				<div class="cute2">
+					<a href="cooking.html">
+					<h2> Cooking </h2></a>
+					<br><br><br><br><p1> &nbsp&nbsp&nbsp&nbspAffordable <br> &nbsp&nbsp&nbsphome-cooked meals <br>&nbspfor your better &nbsphealth. </p1>
+				</div>
+				<div class="cute3">
+					<a href="elderlycare.html">
+					<h2> Elderlycare </h2></a>
+					<p1> Caregivers who specialize in dementia care.</p1>
+				</div>
+				<div class="cute4">
+					<a href="babysitting.html">
+					<h2>Babysitting</h2></a>
+					<p1><center>Babysitters and japa for all your child-care needs.</center></p1>
+				</div>
+				<div class="cute5">
+					<a href="nursing.html">
+					<h2> Nursing </h2></a>
+					<p1><center>&nbsp&nbsp&nbsp&nbspCaring Professional &nbsp&nbsp&nbsp&nbspNurses for patients &nbsp&nbsp&nbsp&nbspin need.</center></p1>
+				</div>
+	
+		</div>
+
+    <img src="ham.jpg"  id="menuIcon">
+
+    <div class="menu-box" id="menuBox">
+        <ul>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="bookings.php">Booking Schedule</a></li>
+            <li><a href="ham.php">Services</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <script>
+
+        let menuBox = document.getElementById("menuBox");
+        let menuIcon = document.getElementById("menuIcon");
+
+        menuIcon.onclick = function(){
+            menuBox.classList.toggle("open-menu");
+
+            if(menuBox.classList.contains("open-menu")){
+                menuIcon.src = "cross.jpg";
+            }
+            else{
+                menuIcon.src = "ham1.jpg";
+            }
+        }
+    </script>
+
+
+</body>
+</html>
